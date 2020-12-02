@@ -1,6 +1,5 @@
 import Axios from "axios";
 import { useCallback, useState } from "react";
-import "./App.css";
 import Header from "./componets/header/header.jsx";
 import { myKey, ApiPath } from "./config/index.js";
 import CardList from "./componets/cardList/cardList.jsx";

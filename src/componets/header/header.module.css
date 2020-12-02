@@ -8,9 +8,9 @@
 }
 
 .logo {
+  display: flex;
   align-items: center;
-  margin-right: 1rem;
-  color: red !important;
+  margin-right: 1em;
 }
 
 .form {
@@ -23,18 +23,24 @@
 .input {
   width: 90%;
   height: 100%;
-  font-size: 25px;
+  font-size: 1.2rem;
   border: none;
   padding: 0;
   margin: 0;
 }
 
-.title {  
+.img {
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 15px;
+  color: red;
+}
+
+.title {
   font-size: 30px;
   font-weight: 700;
   margin-right: 15px;
   color: white;
-  text-decoration : none;
 }
 
 .button {

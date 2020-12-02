@@ -13,6 +13,7 @@ function CardWidget({ item, onClickVideo, display }) {
           <img
             className={styles.thumbnail}
             src={item.snippet.thumbnails.medium.url}
+            alt="video thumbnail"
           ></img>
           <div className={styles.content}>
             <p className={styles.title}>{item.snippet.title}</p>

@@ -11,10 +11,10 @@ function Header({ onSearch }) {
   };
   return (
     <header className={styles.header}>
-      <a href="#">
-        <i className={styles.logo} className="fab fa-youtube"></i>
-        <span className={styles.title}>Youtube</span>
+      <a className={styles.logo}>
+        <img className={`${styles.img} fab fa-youtube`} alt="logo" />
       </a>
+      <span className={styles.title}>Youtube</span>
       <form className={styles.form} onSubmit={onSubmit}>
         <input
           className={styles.input}
